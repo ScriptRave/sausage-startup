@@ -139,7 +139,7 @@
 
 <script>
     // 1. CONFIGURATION
-    const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQT_Q-Wtfqb-IJCda_J9Y2SpVXce-Pctta39TTHT750sfIOR_r8qhajidVYrejdsoYgeLZSTC6F7kOK/pub?gid=0&single=true&output=tsv';
+    const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSXQ46s3sE4k0dE6imuSkqvTMNtjEeprwKHRGsH69SRV2BxHd_nXXa8rniNJi6atjN3DZ3AEWNz4X1Y/pub?gid=0&single=true&output=tsv';
     const apiKey = "AIzaSyDcnrJgFfSUIWVhLwaAZGzpQb9UnJpPhwk"; // Environment provides this
 
     // Global variable to hold the parsed menu for the AI
