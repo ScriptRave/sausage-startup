@@ -140,7 +140,7 @@
 <script>
     // 1. CONFIGURATION
     const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSXQ46s3sE4k0dE6imuSkqvTMNtjEeprwKHRGsH69SRV2BxHd_nXXa8rniNJi6atjN3DZ3AEWNz4X1Y/pub?gid=0&single=true&output=tsv';
-    const apiKey = "AIzaSyDcnrJgFfSUIWVhLwaAZGzpQb9UnJpPhwk"; // Environment provides this
+    const apiKey = "AIzaSyCF053RtG2MdRckeXYt_ZalxNWY5O0RT_Y"; // Environment provides this
 
     // Global variable to hold the parsed menu for the AI
     window.menuData = [];
@@ -214,7 +214,7 @@
             const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
             const recognition = new SpeechRecognition();
 
-            recognition.continuous = false;
+            recognition.continuous = true;
             recognition.interimResults = false;
             recognition.lang = "en-US";
 
