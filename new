@@ -128,7 +128,7 @@
                     </button>
                 </div>
             </div>
-            <p class="text-xs text-stone-400 mt-2 italic">Type nicely formatted requests or quick notes. We'll figure it out.</p>
+            <p class="text-xs text-stone-400 mt-2 italic">Speak requests. We'll figure it out.</p>
         </div>
 
         <!-- Footer -->
@@ -140,7 +140,7 @@
 <script>
     // 1. CONFIGURATION
     const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSXQ46s3sE4k0dE6imuSkqvTMNtjEeprwKHRGsH69SRV2BxHd_nXXa8rniNJi6atjN3DZ3AEWNz4X1Y/pub?gid=0&single=true&output=tsv';
-    const apiKey = "AIzaSyCF053RtG2MdRckeXYt_ZalxNWY5O0RT_Y"; // Environment provides this
+    const apiKey = "AIzaSyC5PiYYMDJUAYVXjK2jxN-kZrXhOqlTIh0"; // Environment provides this
 
     // Global variable to hold the parsed menu for the AI
     window.menuData = [];
